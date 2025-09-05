@@ -1,0 +1,24 @@
+{
+  "name": "@siroi/ts-zuc128",
+  "version": "1.0.0",
+  "description": "国密算法",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsdown"
+  },
+  "keywords": [
+    "zuc128",
+    "gm"
+  ],
+  "author": "",
+  "license": "MIT",
+  "packageManager": "pnpm@10.15.0",
+  "devDependencies": {
+    "@maxwell-zhai/easyfront": "^1.3.0",
+    "@siroi/tsconfig": "^1.0.1",
+    "tsdown": "^0.14.2",
+    "typescript": "^5.9.2"
+  }
+}
