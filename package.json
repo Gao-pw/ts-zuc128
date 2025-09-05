@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsdown"
+    "build": "tsdown",
+    "release": "easyfront release config="
   },
   "keywords": [
     "zuc128",
@@ -16,7 +17,7 @@
   "license": "MIT",
   "packageManager": "pnpm@10.15.0",
   "devDependencies": {
-    "@maxwell-zhai/easyfront": "^1.3.0",
+    "@maxwell-zhai/easyfront": "~1.2.0",
     "@siroi/tsconfig": "^1.0.1",
     "tsdown": "^0.14.2",
     "typescript": "^5.9.2"
