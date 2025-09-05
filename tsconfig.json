@@ -2,10 +2,9 @@
   "extends": "@siroi/tsconfig/tsconfig.browser-package.json",
   "compilerOptions": {
     "baseUrl": "./",
-    "rootDir": "./src"
+    "rootDir": "./",
+    "moduleResolution": "node",
+    "module": "esnext"
   },
-  "include": ["src/**/*.ts"],
-  "files": [
-    "./types.d.ts"
-  ]
+  "include": ["src/**/*.ts", "./types.d.ts"],
 }
