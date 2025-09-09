@@ -1,5 +1,18 @@
 
 
+# 1.1.0 (2025-09-09)
+
+
+### ✨ Features
+
+* **build**: Local build ([a9e1eb2](https://github.com/Gao-pw/ts-zuc128/commit/a9e1eb2))
+* **tsdown**: 打包产物优化 ([5fcf51d](https://github.com/Gao-pw/ts-zuc128/commit/5fcf51d))
+
+
+### 📝 Documentation
+
+* **readme**: With douba ([26c9e83](https://github.com/Gao-pw/ts-zuc128/commit/26c9e83))
+
 ## 1.0.1 (2025-09-05)
 
 
