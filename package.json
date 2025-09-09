@@ -3,20 +3,26 @@
   "version": "1.0.1",
   "description": "国密算法",
   "type": "module",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "package.json",
+    "readme.md"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsdown",
+    "build": "tsdown --minify",
     "release": "easyfront release config="
   },
   "keywords": [
     "zuc128",
     "gm"
   ],
-  "author": "",
+  "repository": {
+    "url": "https://github.com/Gao-pw/ts-zuc128/"
+  },
+  "author": "siroi",
   "license": "MIT",
   "packageManager": "pnpm@10.15.0",
   "devDependencies": {
@@ -28,5 +34,10 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
+  },
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js"
   }
 }
